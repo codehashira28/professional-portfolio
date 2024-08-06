@@ -63,3 +63,54 @@ a {
 .project-card a:hover::after {
     content: " \2192";
 }
+
+.fadeDown {
+    filter: blur(5px);
+    transform: translateY(-100%);
+}
+
+.fadeUp {
+    filter: blur(5px);
+    transform: translateY(100%);
+}
+
+.hidden, .fadein, .fadeDown, .fadeUp {
+    opacity: 0;
+    transition: opacity 1.2s ease, filter 1.2s ease, transform 1.2s ease;
+}
+
+.fadein, .logo {
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.logo {
+    opacity: 0;
+    border: none;
+}
+
+.reveal {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.logo:hover {
+    scale: 1.2;
+}
+
+.laptop {
+    transition: opacity 1s ease, filter 1s ease, transform 1s ease, scale .2s ease;
+}
+
+.playstation {
+    transition: opacity 1s 200ms ease, filter 1s 200ms ease, transform 1s 200ms ease, scale .2s ease;
+}
+
+.naruto {
+    transition: opacity 1s 400ms ease, filter 1s 400ms ease, transform 1s 400ms ease, scale .2s ease;
+}
+
+.ramen {
+    transition: opacity 1s 600ms ease, filter 1s 600ms ease, transform 1s 600ms ease, scale .2s ease;
+}

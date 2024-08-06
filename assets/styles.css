@@ -1,0 +1,23 @@
+section {
+    padding: .5em;
+}
+
+li:hover {
+    opacity: 0.5;
+}
+
+.content-container {
+    max-width: 900px;
+}
+
+.content-container-lg {
+    max-width: 1124px;
+}
+
+.fa-brands {
+    font-size: 3.8rem;
+}
+
+#naruto, #ramen {
+    width: calc(1.4rem + 1.5vw);
+}

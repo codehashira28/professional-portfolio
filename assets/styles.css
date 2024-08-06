@@ -25,3 +25,41 @@ li:hover {
 #experience img {
     transform: scale(0.65);
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#github-link:hover, #linkedin-link:hover {
+    opacity: 0.5;
+}
+
+.project-card p {
+    transition: scale .2s ease, opacity .2s ease;
+}
+
+.project-card p:hover {
+    scale: 1.2;
+    opacity: 0.8;
+}
+
+.project-card img {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+    object-position: top;
+}
+
+.project-card a {
+    transition: color .2s ease;
+}
+
+.project-card a:hover {
+    color: rgb(0, 0, 48);
+    font-weight: bold;
+}
+
+.project-card a:hover::after {
+    content: " \2192";
+}

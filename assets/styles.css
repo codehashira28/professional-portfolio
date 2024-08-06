@@ -21,3 +21,7 @@ li:hover {
 #naruto, #ramen {
     width: calc(1.4rem + 1.5vw);
 }
+
+#experience img {
+    transform: scale(0.65);
+}

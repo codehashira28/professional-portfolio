@@ -16,4 +16,4 @@ Navigation links for each section can be clicked and the page will scroll to tha
 
 ## Credits
 
-Drew design inspiration from example portflios found online and tailored by my personal touch.
+Drew design inspiration from example portflios found online and tailored by my personal touch and experiences.

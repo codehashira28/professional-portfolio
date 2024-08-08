@@ -10,7 +10,9 @@ N/A
 
 ## Usage
 
-Navigation links for each section can be clicked and the page will scroll to that section. 
+Navigation links for each section can be clicked and the page will scroll to that section.
+
+![Professional Portfolio](./assets/images/Portfolio.png)
 
 ## Credits
 

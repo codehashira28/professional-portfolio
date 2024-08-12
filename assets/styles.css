@@ -52,11 +52,12 @@ a {
 }
 
 .project-card a {
+    color: rgb(0, 44, 48);
     transition: color .2s ease;
 }
 
 .project-card a:hover {
-    color: rgb(0, 0, 48);
+    color: rgb(0, 20, 48);
     font-weight: bold;
 }
 
